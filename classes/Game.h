@@ -111,7 +111,7 @@ public:
 	// grid access - replaces getHolderAt
 	virtual Grid* getGrid() = 0;
 	// legacy support - calls getGrid()->getSquare(x, y)
-	BitHolder &getHolderAt(const int x, const int y) { return *getGrid()->getSquare(x, y); }
+	virtual BitHolder &getHolderAt(const int x, const int y) { return *getGrid()->getSquare(x, y); }
 
 	const unsigned int getCurrentTurnNo() { return _gameOptions.currentTurnNo; };
 	const int getScore() { return _gameOptions.score; };

@@ -1,7 +1,7 @@
 #include "ChessSquare.h"
 #include <string>
 
-void ChessSquare::initHolder(const ImVec2 &position, const char *spriteName, const int column, const int row)
+void ChessSquare::initHolder(const ImVec2 &position, const char *spriteName, const int row, const int column)
 {
     _column = column;
     _row = row;

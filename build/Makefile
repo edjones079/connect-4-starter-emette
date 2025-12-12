@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake
+CMAKE_COMMAND = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake
 
 # The command to remove a file.
-RM = /nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake -E rm -f
+RM = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/electrickazoo/Documents/Assignments/connect-4-starter-e
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cpack --config ./CPackConfig.cmake
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cpack --config ./CPackSourceConfig.cmake /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build/CPackSourceConfig.cmake
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cpack --config ./CPackSourceConfig.cmake /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -88,7 +88,7 @@ package_source/fast: package_source
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/ctest --force-new-ctest-process $(ARGS)
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/ctest --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -98,7 +98,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -108,7 +108,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -643,6 +643,30 @@ classes/ChessSquare.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/ChessSquare.cpp.s
 .PHONY : classes/ChessSquare.cpp.s
 
+classes/Connect4.o: classes/Connect4.cpp.o
+.PHONY : classes/Connect4.o
+
+# target to build an object file
+classes/Connect4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4.cpp.o
+.PHONY : classes/Connect4.cpp.o
+
+classes/Connect4.i: classes/Connect4.cpp.i
+.PHONY : classes/Connect4.i
+
+# target to preprocess a source file
+classes/Connect4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4.cpp.i
+.PHONY : classes/Connect4.cpp.i
+
+classes/Connect4.s: classes/Connect4.cpp.s
+.PHONY : classes/Connect4.s
+
+# target to generate assembly for a file
+classes/Connect4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4.cpp.s
+.PHONY : classes/Connect4.cpp.s
+
 classes/Game.o: classes/Game.cpp.o
 .PHONY : classes/Game.o
 
@@ -1034,6 +1058,9 @@ help:
 	@echo "... classes/ChessSquare.o"
 	@echo "... classes/ChessSquare.i"
 	@echo "... classes/ChessSquare.s"
+	@echo "... classes/Connect4.o"
+	@echo "... classes/Connect4.i"
+	@echo "... classes/Connect4.s"
 	@echo "... classes/Game.o"
 	@echo "... classes/Game.i"
 	@echo "... classes/Game.s"

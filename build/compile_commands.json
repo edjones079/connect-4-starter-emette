@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/Application.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/Application.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/Application.cpp",
+  "output": "CMakeFiles/demo.dir/Application.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_demo.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_draw.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_tables.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_widgets.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Bit.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Bit.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Bit.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Bit.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/BitHolder.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/BitHolder.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/BitHolder.cpp",
+  "output": "CMakeFiles/demo.dir/classes/BitHolder.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Game.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Game.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Game.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Game.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Sprite.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Sprite.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Sprite.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Sprite.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Square.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Square.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Square.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Square.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/ChessSquare.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/ChessSquare.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/ChessSquare.cpp",
+  "output": "CMakeFiles/demo.dir/classes/ChessSquare.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Grid.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Grid.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Grid.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Grid.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/TicTacToe.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/TicTacToe.cpp",
+  "output": "CMakeFiles/demo.dir/classes/TicTacToe.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Checkers.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Checkers.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Checkers.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Checkers.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Othello.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Othello.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Othello.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Othello.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/classes/Connect4.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Connect4.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Connect4.cpp",
+  "output": "CMakeFiles/demo.dir/classes/Connect4.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/main_macos.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/main_macos.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/main_macos.cpp",
+  "output": "CMakeFiles/demo.dir/main_macos.cpp.o"
+},
+{
+  "directory": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/build",
+  "command": "/run/current-system/sw/bin/c++  -I/nix/store/b608h3ylrhrwpi9bc0y0014jf7j03pzl-libglvnd-1.7.0-dev/include -isystem /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/include  -Wall -Wextra -Wno-unused-parameter -Wno-ignored-qualifiers -g -std=gnu++20 -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -c /home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
+}
+]

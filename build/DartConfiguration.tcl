@@ -14,7 +14,7 @@ CostDataFile:
 Site: wander
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake" "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette"
-MakeCommand: /nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake" "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette"
+MakeCommand: /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /nix/store/kks0nbx2riwry5qsx0qr87qr0lswmhzi-gcc-wrapper-14.3.0/bin/g++
-CompilerVersion: 14.3.0
+Compiler: /run/current-system/sw/bin/c++
+CompilerVersion: 15.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /nix/store/y28c83zz73yr4vwz1fsl4nsrn6yz5fj0-gcc-14.3.0/bin/gcov
+CoverageCommand: /run/current-system/sw/bin/gcov
 CoverageExtraFlags: -l
 
 # Testing options

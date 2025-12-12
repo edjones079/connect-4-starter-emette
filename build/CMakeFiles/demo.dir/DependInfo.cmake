@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/BitHolder.cpp" "CMakeFiles/demo.dir/classes/BitHolder.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/BitHolder.cpp.o.d"
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Checkers.cpp" "CMakeFiles/demo.dir/classes/Checkers.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/Checkers.cpp.o.d"
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/ChessSquare.cpp" "CMakeFiles/demo.dir/classes/ChessSquare.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/ChessSquare.cpp.o.d"
+  "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Connect4.cpp" "CMakeFiles/demo.dir/classes/Connect4.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/Connect4.cpp.o.d"
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Game.cpp" "CMakeFiles/demo.dir/classes/Game.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/Game.cpp.o.d"
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Grid.cpp" "CMakeFiles/demo.dir/classes/Grid.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/Grid.cpp.o.d"
   "/home/electrickazoo/Documents/Assignments/connect-4-starter-emette/classes/Othello.cpp" "CMakeFiles/demo.dir/classes/Othello.cpp.o" "gcc" "CMakeFiles/demo.dir/classes/Othello.cpp.o.d"

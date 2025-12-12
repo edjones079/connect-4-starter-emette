@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake
+CMAKE_COMMAND = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake
 
 # The command to remove a file.
-RM = /nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/cmake -E rm -f
+RM = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/NightlyTest.dir/compiler_depend.make
 include CMakeFiles/NightlyTest.dir/progress.make
 
 CMakeFiles/NightlyTest:
-	/nix/store/7va01f1pa6bkxy2a869dx148ajxx16dd-cmake-3.31.6/bin/ctest -D NightlyTest
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/ctest -D NightlyTest
 
 CMakeFiles/NightlyTest.dir/codegen:
 .PHONY : CMakeFiles/NightlyTest.dir/codegen

@@ -13,16 +13,16 @@ public:
     ~Grid();
 
     // Basic access
-    ChessSquare* getSquare(int x, int y);
+    ChessSquare* getSquare(int y, int x);
     ChessSquare* getSquareByIndex(int index);
-    bool isValid(int x, int y) const;
-    bool isEnabled(int x, int y) const;
-    void setEnabled(int x, int y, bool enabled);
+    bool isValid(int y, int x) const;
+    bool isEnabled(int y, int x) const;
+    void setEnabled(int y, int x, bool enabled);
 
     // Grid properties
     int getWidth() const { return _width; }
     int getHeight() const { return _height; }
-    int getIndex(int x, int y) const { return y * _width + x; }
+    int getIndex(int y, int x) const { return y * _width + x; }
     void getCoordinates(int index, int& x, int& y) const;
 
     // Directional helpers (built into Grid)

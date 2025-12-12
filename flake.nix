@@ -2,7 +2,7 @@
 {
   description = "A Nix-flake-based C/C++ development environment";
 
-  inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0"; # stable Nixpkgs
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable"; # stable Nixpkgs
 
   outputs =
     { self, ... }@inputs:
@@ -14,8 +14,8 @@
 
     in
     {
-      devShells.${system}.default = pkgs.mkShell{
-        
+        devShells.${system}.default = pkgs.mkShell{
+
 		buildInputs = with pkgs; [
             clang-tools
             cmake
@@ -26,6 +26,7 @@
 		    gcc
 			glew
 		    glfw
+            glibc
             gtest
             lcov
 			libGL
@@ -34,6 +35,7 @@
 			pkg-config
             vcpkg
             vcpkg-tool
+            unzip
 			xorg.libX11
 	      	xorg.libXrandr
 	      	xorg.libXi
